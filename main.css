@@ -41,6 +41,12 @@ body {
       box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
       transition: background-color 0.3s ease-in;
    }
+   .orb-canvas {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    right: 0;
+  }  
   .about {
     display: flex;
     align-items: center;
@@ -50,6 +56,7 @@ body {
     background: url('img/back.png') no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
   }
   @keyframes rotation {
     0% {
